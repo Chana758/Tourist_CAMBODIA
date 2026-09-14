@@ -17,7 +17,7 @@ import PhnomPenhDetail from '../features/provinces/PhnomPenhDetail';
 // About / Contact / Auth
 import AboutCambodia from '../features/about/AboutCambodia';
 import TeamSection from '../features/about/TeamSection';
-import ContactUs from '../features/contact/Contactus';
+import ContactUs from '../features/contact/ContactUs';
 import Login from '../features/auth/Login';
 import SignUp from '../features/auth/SignUp';
 
@@ -57,7 +57,6 @@ const AppRoutes = () => {
 
       <Route path="/about" element={<AboutPage />} />
 
-      <Route path="/contect" element={<ContactUs />} />
       <Route path="/contact" element={<ContactUs />} />
 
       <Route path="/login" element={<Login />} />
