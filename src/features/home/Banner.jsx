@@ -95,7 +95,9 @@ const Banner = () => {
                 </div>
               </button>
               <button className="flex-1 sm:flex-initial bg-gray-900 text-white px-3.5 py-2.5 rounded-xl flex items-center gap-2.5 hover:bg-black transition-all shadow-md">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Play_2022_icon.svg/1856px-Google_Play_2022_icon.svg.png" alt="Google Play" className="w-4 h-4 object-contain" />
+                <svg className="w-4 h-4 fill-current text-white" viewBox="0 0 24 24">
+                  <path d="M3.609 1.814L13.792 12 3.61 22.186a1.536 1.536 0 0 1-.61-.186V2a1.536 1.536 0 0 1 .61-.186zM14.85 13.058l2.122 2.122-10.457 6.038c-.524.303-1.077.272-1.353.072l9.688-8.232zm0-2.116L5.162 2.71c.276-.2.83-.231 1.353.072l10.457 6.038-2.122 2.122zm1.061 1.061l4.981 2.875c.613.354.613.93 0 1.284l-4.981 2.875-2.122-2.122 2.122-2.122z"/>
+                </svg>
                 <div className="text-left leading-none">
                   <div className="text-[9px] text-gray-400">Get it on</div>
                   <div className="text-[11px] font-semibold mt-0.5">Google Play</div>
