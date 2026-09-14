@@ -361,7 +361,7 @@ import kohkong6 from '../assets/Images/koh_6_1.webp';
 import kohkong7 from '../assets/Images/koh_6_2.jpg';
 import kohkong8 from '../assets/Images/koh_6_3.webp';
 import kohkong9 from '../assets/Images/koh_7.png';
-import kohkong10 from '../assets/images/koh_7_1.jpg';
+import kohkong10 from '../assets/Images/koh_7_1.jpg';
 import kohkong11 from '../assets/Images/koh_7_2.jpg';
 import kohkong12 from '../assets/Images/koh_7_3.jpg';
 import kohkong13 from '../assets/Images/koh_8.jpg';
