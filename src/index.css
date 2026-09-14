@@ -1,1 +1,42 @@
 @import "tailwindcss";
+/* ================================================= */
+/* ដំណោះស្រាយដាច់ខាតដោយប្រើតែ CSS (សម្រាប់ index.css) */
+/* ================================================= */
+
+/* 1. លាក់ Banner របស់ Google (iframe) ឲ្យបាត់ពី DOM ទាំងស្រុង */
+.goog-te-banner-frame.skiptranslate, 
+.goog-tooltip, 
+.goog-tooltip:hover {
+    display: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* 2. បង្ខំ Body និង HTML ឲ្យត្រឡប់ទៅ Top: 0px វិញ */
+/* នេះគឺដើម្បីលុបចោលគម្លាត/ការរុញដែល Google បង្កើតលើ body/html */
+body.translated-ltr, 
+body.translated-rtl,
+html.translated-ltr, 
+html.translated-rtl {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    top: 0px !important;
+    position: initial !important; 
+    overflow-x: hidden !important; /* បង្ការ Scrollbar ពេលបកប្រែ */
+}
+
+/* 3. ជួសជុល Layout ផ្សេងៗ និងលាក់ Widget ដើម */
+html, body {
+    min-height: initial !important; 
+    height: auto !important;
+    /* ត្រូវតែមាន top: 0px !important; លើ body ដើម្បីទប់ Navbar fixed */
+    top: 0px !important; 
+    position: initial !important;
+}
+
+#google_translate_element,
+.goog-te-gadget-simple,
+.goog-logo-link + .goog-te-gadget {
+    display: none !important;
+}
