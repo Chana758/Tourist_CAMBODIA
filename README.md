@@ -21,7 +21,7 @@ A modern, responsive tourism website that helps travelers discover Cambodia: its
 
 ## 📸 Screenshots
 
-![Provinces](./docs/provinces.png)
+![Provinces](./docs/provinces-hero.png)
 
 ## 🛠️ Tech Stack
 
