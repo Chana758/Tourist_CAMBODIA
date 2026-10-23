@@ -2,7 +2,7 @@ export const menu = [
   { id: 1, name: "Home", link: "/home" },
   { id: 2, name: "Destination", link: "/province" },
   { id: 3, name: "About", link: "/about" },
-  { id: 4, name: "Contect", link: "/contect" },
+  { id: 4, name: "Contact", link: "/contact" },
 ];
 
 import phnompenh from '../assets/Images/PhnomPenh.jpg';

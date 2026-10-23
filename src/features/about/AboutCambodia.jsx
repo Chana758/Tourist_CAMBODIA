@@ -112,7 +112,7 @@ const AboutCambodia = () => {
               </ul>
             </div>
 
-            <Link to="/contect">
+            <Link to="/contact">
               <button className="bg-amber-600 text-white px-6 py-2 rounded-md font-medium hover:bg-amber-700 transition duration-200">
                 Contact Now
               </button>
